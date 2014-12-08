@@ -1,1 +1,103 @@
 /* CSS */
+/*fichier css*/
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-size:20px;
+}
+
+h1 {
+	color:blue;
+	background-color:"#eeeeee";
+}
+
+a {
+	color:black;
+}
+
+
+
+#titrefabien p{
+	text-align:center;
+	color: #06C;
+}
+
+/* début structure */
+header{
+	height: 5.5em;
+	box-sizing: border;
+	
+	width: 1263px;
+}
+
+#logo{
+	height:inherit;
+	width:30%;
+	display:inline-block;
+	background-image:url(../images/folio_logo_big.jpg);
+	background-size: cover;
+	box-sizing: border;
+	
+}
+#nom{
+	height:inherit;
+	position: absolute;
+	top: 0px;
+	left:30em;
+	display:inline-block;
+	box-sizing: border;
+	background-color:"#eeeeee";
+}
+nav{
+	border: solid black 3px;
+	width: 95px;
+	position:fixed;
+	top:9em;
+	left: 1em;
+	
+}
+#page{
+	padding-left: 20em;
+	margin-top:5em;
+}
+/* fin structure */
+
+#nom, h1{
+	background-color: #EEEEEE;
+}
+	
+nav ul{
+	list-style-type: none;
+}
+
+#sec1{
+	color:blue;
+}
+
+article {
+text-align:left;
+margin: 4% 4% ;
+border-width: 2px;
+border-style:solid;
+border-color: black;
+border-radius: 0.2em;
+box-shadow: 0.8px 0.8px 0.8px #aaa;
+}
+
+article h1{
+	background-color:"#eeeeee";
+	padding-left: 6%;
+}
+
+article video{
+	padding-left:3em;
+}
+
+article audio{
+	padding-left:3em;
+}
+
+p{
+padding-left:3em;
+}
